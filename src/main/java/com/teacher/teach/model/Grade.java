@@ -7,10 +7,11 @@ import javax.persistence.Table;
 @Table(name = "Grade")
 public class Grade {
 	
+	@Id
+	private int id;
 	private int classno;
 	private int periodno;
-	private String subject;
-	@Id
+	private String subject;	
 	private int teacherno;
 	
 	//public Grade() {}

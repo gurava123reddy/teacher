@@ -8,9 +8,10 @@ import javax.persistence.Table;
 @Table(name = "Teacheraccount")
 public class Teacheraccount {
 	
-	private String accountno;
-	private String ifsc;
 	@Id
+	private int id;
+	private String accountno;
+	private String ifsc;	
 	private int teacherno;
 	public String getAccountno() {
 		return accountno;
